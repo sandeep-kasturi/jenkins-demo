@@ -13,7 +13,7 @@ import jakarta.annotation.PostConstruct;
 @RestController
 public class Demo2Application {
 	
-	public static Logger logger = LoggerFactory.getLogger(Demo2Application.class);
+	public static  logger = LoggerFactory.getLogger(Demo2Application.class);
 	
 	@PostConstruct
 	public void start() {

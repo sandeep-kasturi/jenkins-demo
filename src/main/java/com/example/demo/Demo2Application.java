@@ -22,7 +22,7 @@ public class Demo2Application {
 		
 	@GetMapping("/getMsg")
 	public String get() {
-		return "Demo 2 service";
+		return "Jenkins service";
 	}
 	
 	public static void main(String[] args) {

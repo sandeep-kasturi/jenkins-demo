@@ -22,7 +22,7 @@ public class Demo2Application{
 		
 	@GetMapping("/getMsg")
 	public String get() {
-		return " new Jenkins service";
+		return "new Jenkins service";
 	}
 	
 	public static void main(String[] args) {

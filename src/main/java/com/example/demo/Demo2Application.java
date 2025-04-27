@@ -11,7 +11,7 @@ import jakarta.annotation.PostConstruct;
 
 @SpringBootApplication
 @RestController
-public class Demo2Application {
+public class Demo2Application{
 	
 	public static Logger logger = LoggerFactory.getLogger(Demo2Application.class);
 	
